@@ -16,41 +16,67 @@ This project will be completed in phases. The first phase will be to work on thi
 
 ## Phase 0: Game Selection, Analysis & Plan
 
-#### Selected Game: YOUR GAME HERE
+#### Selected Game: Breakout
 
 ### Necessary Features
 What are the core features that your game should have? These should be things that __must__ be implemented in order to make the game playable, not extra features that could be added to make the game more fun to play.
 
-YOUR ANSWERS HERE
+Paddle
+Ball
+Bricks
+Ball bounce
+Bricks disappear 
+Different areas of the paddle bounce differently
 
 ### Extra Features
 What are some features that are not essential to gameplay, but you would like to see (provided you have time after completing the necessary features.
-
-YOUR ANSWERS HERE
+ 
+Multiple lives
+The paddle breaks
+Bricks move in the opposite direction of the paddle
 
 
 ### Controls
 How will your game be controlled? If the mouse will be used, explain how. List all keyboard commands as well.
 
 Keyboard Commands:
-- LIST OF COMMANDS HERE
+- Arrow keys move the bricks
+- Spacebar start/stop the game
 
 Mouse Conrol:
-- Mouse movement:
-- Mouse pressed:
+- Mouse movement: Mouse controls the paddle
+- Mouse pressed: Spawn another ball (3x per game)
 
 
 ### Classes
 What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes. If you are going to use classes similar to those we've made for previous assingments, you will have to add new features to them.
 
-CLASS NAME0
-- Instance variables:
-  - LIST INSTANCE VARS HERE
+Bricks
+- Instance variables: 
+  - Brickx, Bricky
+  - Brick velocity
+  - Brick alive/dead
+  - Brick color
+  - Brick health
 - METHODS
-  - LIST METHODS HERE
+  - reset
+  - set color
 
-CLASS NAME1
+Ball
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - Ballx, Bally
+  - Ballxvel, Ballyvol
+
 - METHODS
-  - LIST METHODS HERE
+  - Speed up
+  - Change direction
+  - Collision check
+Paddle
+- Instance variables:
+  - Paddlex, paddley
+  - Paddle width/height
+- Methods
+  - Paddle move
+  - Paddle area collision check
+  
+  
