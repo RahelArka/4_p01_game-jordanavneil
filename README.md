@@ -61,6 +61,7 @@ Bricks
 - METHODS
   - reset
   - set color
+  - Brick collision check (to check what side it hits)
 
 Ball
 - Instance variables:
