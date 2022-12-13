@@ -40,7 +40,7 @@ What are some features that are not essential to gameplay, but you would like to
 How will your game be controlled? If the mouse will be used, explain how. List all keyboard commands as well.
 
 Keyboard Commands:
-- Arrow keys move the bricks
+- WASD keys move the bricks
 - Spacebar start/stop the game
 
 Mouse Conrol:
@@ -70,9 +70,10 @@ Ball
   - Ballxvel, Ballyvel
 
 - METHODS
-  - Speed up
-  - Change direction
-  - Collision check                               
+  - speed up
+  - change direction
+  - collision check   
+  - reset                            
 
 Paddle
 - Instance variables:
