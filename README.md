@@ -1,7 +1,7 @@
 # Project 01 For NeXT CS
-### Class Period:
-### Name0: YOUR NAME HERE
-### Name1: OTHER NAME HERE (delete this line if you are working solo)
+### Class Period: 4
+### Name0: Jordan Leung
+### Name1: Aveneil Padhiary
 ---
 
 
