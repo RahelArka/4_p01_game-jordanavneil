@@ -27,12 +27,13 @@ What are the core features that your game should have? These should be things th
 - Ball bounce
 - Bricks disappear 
 - Different areas of the paddle bounce differently
+- 2D array to set bricks
 
 ### Extra Features
 What are some features that are not essential to gameplay, but you would like to see (provided you have time after completing the necessary features.
  
 - Multiple lives
-- The paddle breaks
+- The paddle breaks (set amount of bounces to beat the level)
 - Bricks move in the opposite direction of the paddle
 
 
@@ -59,10 +60,11 @@ Bricks
   - Brick color
   - Brick health
 - METHODS
-  - reset
-  - set color
+  - reset (resets the brick to starting positions)
+  - display (displays the bricks)
+  - set color (sets the color of the brick based on its y coordinate/health)
   - brick collision check (to check what side it hits)
-  - brick move
+  - brick move (moves the bricks based on user input)
 
 Ball
 - Instance variables:
@@ -70,17 +72,19 @@ Ball
   - Ballxvel, Ballyvel
 
 - METHODS
-  - speed up
-  - change direction
-  - collision check   
-  - reset                            
+  - speed up (at around 30 seconds, the ball gets faster)
+  - display (shows the ball)
+  - change direction (when the ball hits the paddle or a brick it bounces)  
+  - reset (reset ball back to the middle of the screen with a downward velocity)
+  - calculate direction (calculate x and y velocity based on a return value from brick collision and paddle collision)                           
 
 Paddle
 - Instance variables:
   - Paddlex, paddley
   - Paddle width/height
 - Methods
-  - Paddle move
-  - Paddle area collision check
+  - Paddle move (moves the paddle)
+  - display (shows the paddle)
+  - Paddle area collision check (finds what part of the paddle the ball hits to calculate direction)
   
   
