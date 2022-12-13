@@ -74,9 +74,10 @@ Ball
 - METHODS
   - speed up (at around 30 seconds, the ball gets faster)
   - display (shows the ball)
-  - change direction (when the ball hits the paddle or a brick it bounces)  
+  - change direction (when the ball hits the paddle or a brick it bounces or when it hits a wall/ceiling)  
   - reset (reset ball back to the middle of the screen with a downward velocity)
-  - calculate direction (calculate x and y velocity based on a return value from brick collision and paddle collision)                           
+  - calculate direction (calculate x and y velocity based on a return value from brick collision and paddle collision)
+  - on floor (checks if the ball goes below the paddle)                           
 
 Paddle
 - Instance variables:
