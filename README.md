@@ -1,7 +1,7 @@
 # Project 01 For NeXT CS
 ### Class Period: 4
 ### Name0: Jordan Leung
-### Name1: Aveneil Padhiary
+### Name1: Avneil Padhiary
 ---
 
 
@@ -60,6 +60,7 @@ Bricks
   - Brick color
   - Brick health
 - METHODS
+  - constructor (set up bricks)
   - reset (resets the brick to starting positions)
   - display (displays the bricks)
   - set color (sets the color of the brick based on its y coordinate/health)
@@ -70,8 +71,10 @@ Ball
 - Instance variables:
   - Ballx, Bally
   - Ballxvel, Ballyvel
+  - Radius
 
 - METHODS
+  - constructor (set up ball)
   - speed up (at around 30 seconds, the ball gets faster)
   - display (shows the ball)
   - change direction (when the ball hits the paddle or a brick it bounces or when it hits a wall/ceiling)  
@@ -84,6 +87,7 @@ Paddle
   - Paddlex, paddley
   - Paddle width/height
 - Methods
+  - constructor (set up paddle)aa
   - Paddle move (moves the paddle)
   - display (shows the paddle)
   - Paddle area collision check (finds what part of the paddle the ball hits to calculate direction)
