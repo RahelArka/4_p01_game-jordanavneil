@@ -1,6 +1,7 @@
-Things to add
+#Things to add
 - momentum shift from paddle to ball
 - menu system
-Things to change
+
+#Things to change
 - Key commmand for spawning ball
 - Brick health displayed with color
